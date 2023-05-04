@@ -1,0 +1,5 @@
+lane :increment do
+    increment_build_number(
+		build_number: sh('curl -s https://increment.build/bltq2-iOS-ucb')
+	)
+end

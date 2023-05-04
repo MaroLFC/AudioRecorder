@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Type</key>
+    <string>EgoXproject Change File</string>
+    <key>Version</key>
+    <integer>2</integer>
+    <key>BuildPlatform</key>
+    <string>iOS</string>
+    <key>InfoPlist</key>
+    <dict>
+      <key>ITSAppUsesNonExemptEncryption</key>
+      <false />
+    </dict>
+    <key>Frameworks</key>
+    <dict>
+      <key>System</key>
+      <array>
+        <dict>
+          <key>Name</key>
+          <string>UserNotifications.framework</string>
+          <key>LinkMethod</key>
+          <string>Required</string>
+        </dict>
+        <dict>
+          <key>Name</key>
+          <string>libz.tbd</string>
+          <key>LinkMethod</key>
+          <string>Required</string>
+        </dict>
+        <dict>
+          <key>Name</key>
+          <string>AdSupport.framework</string>
+          <key>LinkMethod</key>
+          <string>Required</string>
+        </dict>
+        <dict>
+          <key>Name</key>
+          <string>AppTrackingTransparency.framework</string>
+          <key>LinkMethod</key>
+          <string>Required</string>
+        </dict>
+      </array>
+    </dict>
+    <key>FilesAndFolders</key>
+    <dict>
+      <key>Entries</key>
+      <array />
+    </dict>
+    <key>BuildSettings</key>
+    <array />
+    <key>Signing</key>
+    <dict>
+      <key>TeamId</key>
+      <string>6GYHRV4G4C</string>
+    </dict>
+    <key>Scripts</key>
+    <array />
+    <key>Capabilities</key>
+    <dict>
+      <key>InAppPurchase</key>
+      <dict />
+      <key>PushNotifications</key>
+      <dict />
+      <key>BackgroundModes</key>
+      <dict>
+        <key>RemoteNotifications</key>
+        <true />
+      </dict>
+    </dict>
+  </dict>
+</plist>

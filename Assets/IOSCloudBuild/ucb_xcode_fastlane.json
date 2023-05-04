@@ -1,0 +1,7 @@
+{
+  "fastfile": "Assets/IOSCloudBuild/Fastfile",
+  "lanes": {
+    "pre_build": "increment",
+    "post_build": ""
+  }
+}
