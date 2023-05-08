@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo gem install watchbuild
+gem install watchbuild
 echo "Uploading IPA to Appstore Connect..."
 #Path is "/BUILD_PATH/<ORG_ID>.<PROJECT_ID>.<BUILD_TARGET_ID>/.build/last/<BUILD_TARGET_ID>/build.ipa"
 path="${UNITY_PLAYER_PATH}"
