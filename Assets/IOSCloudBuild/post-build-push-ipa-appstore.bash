@@ -1,5 +1,6 @@
 #!/bin/bash
 gem install watchbuild
+fastlane spaceauth -u m.hesham@cryptydgames.com
 echo "Uploading IPA to Appstore Connect..."
 #Path is "/BUILD_PATH/<ORG_ID>.<PROJECT_ID>.<BUILD_TARGET_ID>/.build/last/<BUILD_TARGET_ID>/build.ipa"
 path="${UNITY_PLAYER_PATH}"
